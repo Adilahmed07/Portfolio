@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khanbu Adil Ahmed | Portfolio</title>
+    <meta name="description" content="Portfolio of Khanbu Adil Ahmed, a MERN Stack Developer and AI Enthusiast.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">Adil<span>.</span></a>
+            <div class="nav-controls">
+                <button id="theme-toggle" class="theme-btn" aria-label="Toggle Theme">
+                    <i class="fas fa-sun"></i>
+                </button>
+                <div class="menu-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+            <ul class="nav-list">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#contact" class="nav-link btn-cta">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <p class="greeting">Hello, I'm</p>
+                <h1 class="hero-name">Khanbu Adil Ahmed</h1>
+                <h2 class="hero-title">I am a <span class="typing-text"></span></h2>
+                <div class="hero-buttons">
+                    <a href="resume.pdf" class="btn btn-primary" download>Download Resume <i
+                            class="fas fa-download"></i></a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/Adilahmed07" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/adilahmed07" target="_blank"><i
+                            class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/adil_ahmed__019/?igsh=MTF1Z3BkeWpiOWN4bg%3D%3D#"
+                        target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="mailto:adilahmed26179@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="profile.jpg" alt="Adil Ahmed">
+            </div>
+        </div>
+        <a href="#about" class="scroll-down">
+            <i class="fas fa-chevron-down"></i>
+        </a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I am a self-motivated and hardworking <strong>Final Year Computer Science Engineering
+                            Student</strong> with strong foundations
+                        in MERN stack development, and AI.
+                        I am passionate about building real-world projects that solve actual problems and participating
+                        in competitive hackathons to sharpen my skills.
+                    </p>
+
+                    <div class="education-timeline">
+                        <div class="edu-item">
+                            <div class="edu-date">2022 – 2026</div>
+                            <h3>B.Tech in Computer Science & Engineering</h3>
+                            <p>JNTU Anantapur</p>
+                        </div>
+                        <div class="edu-item">
+                            <div class="edu-date">2021 – 2022</div>
+                            <h3>Intermediate (MPC)</h3>
+                            <p>Narayana Junior College</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+
+                <!-- Programming -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Programming</h3>
+                    <div class="skill-tags">
+                        <span>C</span>
+                        <span>Java</span>
+                        <span>Python</span>
+                    </div>
+                </div>
+
+                <!-- Web Development -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-laptop-code"></i> Web Development</h3>
+                    <div class="skill-tags">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>React.js</span>
+                        <span>Node.js</span>
+                        <span>Express.js</span>
+                        <span>EJS</span>
+                        <span>Bootstrap</span>
+                        <span>Tailwind</span>
+                        <span>FastAPI</span>
+                    </div>
+                </div>
+
+                <!-- Databases -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Databases</h3>
+                    <div class="skill-tags">
+                        <span>MongoDB</span>
+                        <span>MySQL</span>
+                    </div>
+                </div>
+
+                <!-- Core CS -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-book"></i> Core CS</h3>
+                    <div class="skill-tags">
+                        <span>Data Structures</span>
+                        <span>OOP</span>
+                        <span>DBMS</span>
+                        <span>OS</span>
+                        <span>Networks</span>
+                    </div>
+                </div>
+
+                <!-- Cloud & Tools -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Tools & Cloud</h3>
+                    <div class="skill-tags">
+                        <span>AWS</span>
+                        <span>Azure</span>
+                        <span>Git/GitHub</span>
+                        <span>Postman</span>
+                        <span>VS Code</span>
+                        <span>Figma</span>
+                        <span>Jupyter</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>AI-Powered Plant Disease Detection</h3>
+                        <p class="project-desc">A CNN-based system for detecting plant diseases with a text-to-speech
+                            chatbot for treatment suggestions.</p>
+                        <div class="tech-stack">
+                            <span>Deep Learning</span>
+                            <span>CNN</span>
+                            <span>FastAPI</span>
+                            <span>Python</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn-sm"><i class="fab fa-github"></i> View Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>House & Lodge Rental Platform</h3>
+                        <p class="project-desc">A MERN stack platform simplifying rental searches with advanced
+                            filtering, reducing search time by 60%.</p>
+                        <div class="tech-stack">
+                            <span>MongoDB</span>
+                            <span>Express</span>
+                            <span>React</span>
+                            <span>Node</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn-sm"><i class="fab fa-github"></i> View Code</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="section achievements">
+        <div class="container">
+            <h2 class="section-title">Achievements</h2>
+            <div class="achievements-list">
+                <div class="achievement-item">
+                    <i class="fas fa-trophy"></i>
+                    <div>
+                        <h3>Second Prize - Concurrence Ripple Hackathon 2025</h3>
+                        <p>Competed against 500+ participants to build an innovative solution.</p>
+                    </div>
+                </div>
+                <div class="achievement-item">
+                    <i class="fas fa-medal"></i>
+                    <div>
+                        <h3>Participant - Google Solution Challenge 2025</h3>
+                        <p>Contributed to solving UN Sustainable Development Goals.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Coding Profiles Section -->
+    <section class="section coding-profiles">
+        <div class="container">
+            <h2 class="section-title">Coding Profiles</h2>
+            <div class="profiles-flex">
+                <a href="https://github.com/Adilahmed07" class="profile-card" target="_blank">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+                <a href="https://www.linkedin.com/in/adilahmed07" class="profile-card" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://leetcode.com/u/Adil_Ahmed/" class="profile-card" target="_blank">
+                    <i class="fas fa-code"></i>
+                    <span>LeetCode</span>
+                </a>
+                <a href="https://www.geeksforgeeks.org/profile/adilahme2s0r" class="profile-card" target="_blank">
+                    <i class="fas fa-laptop-code"></i>
+                    <span>GeeksForGeeks</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-box">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Location</h3>
+                        <p>Adoni, Kurnool Dist, AP, India</p>
+                    </div>
+                    <div class="contact-box">
+                        <i class="fas fa-phone"></i>
+                        <h3>Phone</h3>
+                        <p>+91 9618846191</p>
+                    </div>
+                    <div class="contact-box">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>adilahmed26179@gmail.com</p>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm" action="https://formspree.io/f/xnjjnqnv" method="POST">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message <i
+                            class="fas fa-paper-plane"></i></button>
+                    <div id="form-feedback"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026~Adil Ahmed.All Rights Reserved</p>
+    </footer>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
